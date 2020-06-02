@@ -1,0 +1,12 @@
+<!--pages/poster/poster.wxml-->
+<!-- 创建画布 -->
+<view class="poster-view">
+  <canvas canvas-id="shareImg" hidden='{{ishidden}}'></canvas>
+  <!-- 分享按钮 -->
+  <view class="sharebutton" hidden='{{ishidden}}'>
+    <button type="primary" size="mini" data-name="shareBtn" open-type="share">分享给好友</button>
+    <button type="primary" size="mini" bindtap="saveImg">分享到朋友圈</button>
+  </view>
+</view>
+
+

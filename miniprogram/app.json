@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/poster/poster"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#9c88ff",
+    "navigationBarTitleText": "AI识花",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#a55eea",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "发现",
+      "iconPath": "assets/images/camera.png",
+      "selectedIconPath": "assets/images/camera_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "assets/images/user.png",
+        "selectedIconPath": "assets/images/user_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

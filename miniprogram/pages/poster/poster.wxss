@@ -1,0 +1,34 @@
+/* pages/poster/poster.wxss */
+page{
+  background-color: #f6f6f6;
+}
+
+.poster-view{
+  width: 300px;
+  height: 500px;
+  margin: 20rpx auto 0 auto;
+}
+
+.poster-view canvas{
+  width: 300px;
+  height: 500px;
+}
+
+.sharebutton{
+  padding-top: 60rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sharebutton button{
+  height: 70rpx;
+  line-height: 70rpx;
+}
+
+.sharebutton button:nth-child(1){
+  background-color: #ffa801;
+}
+
+.sharebutton button:nth-child(2){
+  background-color: #8c7ae6;
+}
